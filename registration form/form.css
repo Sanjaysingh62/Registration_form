@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+.formerror {
+  color: red;
+}
+h1 {
+  text-align: center;
+  box-shadow: 0 0 1rem grey;
+  padding: 0.7rem;
+  color: #6f3409;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #539ea8;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+form {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8a761;
+  padding: 2rem 0;
+}
+form .formdesign .input {
+  width: 15rem;
+  height: 1.5rem;
+}
+form .formdesign .add {
+  width: 15rem;
+  height: 1.5rem;
+}
+form .form-box .btn {
+  text-align: center;
+}
+form .form-box .btn .button {
+  cursor: pointer;
+}
+form .form-box .btn input {
+  font-size: 1.5rem;
+  padding: 0.2rem 1.1rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+form .form-box .photo {
+  margin-bottom: 1rem;
+}
